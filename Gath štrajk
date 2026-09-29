@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gath digao pobunu zbog poskupljenja!</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      background: #f2f2f2;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #171717;
+    }
+
+    .top-bar {
+      background: #e30613;
+      color: white;
+      padding: 8px 20px;
+      font-size: 13px;
+      font-weight: bold;
+      text-align: center;
+    }
+
+    header {
+      background: white;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .header-inner {
+      max-width: 1050px;
+      margin: auto;
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-size: 42px;
+      font-weight: 900;
+      letter-spacing: -3px;
+      color: #111;
+    }
+
+    .logo span {
+      color: #e30613;
+    }
+
+    .menu {
+      color: #555;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 35px auto;
+      padding: 0 20px;
+    }
+
+    .parody {
+      display: inline-block;
+      background: #111;
+      color: white;
+      padding: 7px 12px;
+      font-size: 12px;
+      font-weight: bold;
+      margin-bottom: 18px;
+      letter-spacing: 0.5px;
+    }
+
+    .breaking {
+      color: #e30613;
+      font-size: 14px;
+      font-weight: 900;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 48px;
+      line-height: 1.02;
+      letter-spacing: -2px;
+      margin: 0 0 18px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      line-height: 1.4;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    .meta {
+      font-size: 13px;
+      color: #777;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 18px;
+      margin-bottom: 28px;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #e30613, #750009);
+      color: white;
+      height: 330px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-bottom: 30px;
+      padding: 30px;
+    }
+
+    .hero-text {
+      font-size: 42px;
+      font-weight: 900;
+      line-height: 1.05;
+      text-transform: uppercase;
+    }
+
+    article {
+      background: white;
+      padding: 35px;
+      box-shadow: 0 1px 5px rgba(0,0,0,0.08);
+    }
+
+    article p {
+      font-size: 18px;
+      line-height: 1.7;
+      margin: 0 0 22px;
+    }
+
+    .quote {
+      border-left: 5px solid #e30613;
+      padding: 18px 22px;
+      margin: 28px 0;
+      background: #f7f7f7;
+      font-size: 21px;
+      font-weight: bold;
+      line-height: 1.4;
+    }
+
+    h2 {
+      font-size: 25px;
+      border-bottom: 3px solid #e30613;
+      padding-bottom: 8px;
+      margin-top: 35px;
+    }
+
+    .demands {
+      list-style: none;
+      padding: 0;
+    }
+
+    .demands li {
+      background: #f4f4f4;
+      margin: 8px 0;
+      padding: 15px;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    .ending {
+      font-size: 23px;
+      font-weight: 900;
+      text-align: center;
+      padding: 25px 10px;
+      margin-top: 30px;
+      border-top: 3px solid #111;
+      border-bottom: 3px solid #111;
+    }
+
+    .disclaimer {
+      margin-top: 30px;
+      background: #fff3cd;
+      border: 1px solid #ffe08a;
+      padding: 16px;
+      font-size: 13px;
+      color: #654c00;
+      text-align: center;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      color: #888;
+      font-size: 12px;
+      padding: 30px 20px;
+    }
+
+    @media (max-width: 600px) {
+      .logo {
+        font-size: 32px;
+      }
+
+      h1 {
+        font-size: 34px;
+        letter-spacing: -1px;
+      }
+
+      .subtitle {
+        font-size: 17px;
+      }
+
+      .hero {
+        height: 240px;
+      }
+
+      .hero-text {
+        font-size: 29px;
+      }
+
+      article {
+        padding: 22px;
+      }
+
+      article p {
+        font-size: 17px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="top-bar">
+    ⚠️ INTERNA PARODIJA — OVA VIJEST NIJE STVARNA
+  </div>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo">inde<span>x</span></div>
+      <div class="menu">VIJESTI &nbsp; | &nbsp; HRVATSKA &nbsp; | &nbsp; BIZNIS</div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <div class="parody">PARODIJA / INTERNA ŠALA</div>
+
+    <div class="breaking">🚨 BREAKING NEWS</div>
+
+    <h1>
+      GATH DIGAO POBUNU ZBOG NAJAVLJENOG POSKUPLJENJA!
+    </h1>
+
+    <div class="subtitle">
+      Neobična situacija jutros potresla Polleo Sport. 
+      Sustav odlučio stati upravo uoči planirane promjene cijena.
+    </div>
+
+    <div class="meta">
+      Zagreb &nbsp; | &nbsp; Danas, 09:42 &nbsp; | &nbsp; Autor: Index Redakcija™
+    </div>
+
+    <div class="hero">
+      <div class="hero-text">
+        „NEĆETE DIZATI CIJENE<br>
+        DOK SAM JA ŽIV!“
+      </div>
+    </div>
+
+    <article>
+
+      <p>
+        <strong>ZAGREB –</strong> Drama kakva se ne pamti potresla je jutros
+        Polleo Sport. Samo nekoliko minuta prije nego što su djelatnici
+        trebali krenuti s promjenom cijena, <strong>Gath je odlučio povući
+        radikalan potez – ugasio se.</strong>
+      </p>
+
+      <p>
+        Prema informacijama kojima raspolažemo, Gath je navodno već neko
+        vrijeme bio nezadovoljan politikom povećanja cijena, a današnji
+        događaj kulminacija je višemjesečnog nezadovoljstva.
+      </p>
+
+      <div class="quote">
+        „Čim smo rekli da danas idu nove cijene, nestao je. Nema ga.
+        Kao da je unaprijed znao što se sprema.“
+        <br><br>
+        <span style="font-size:14px; color:#777;">
+          — zaposlenik Polleo Sporta koji je želio ostati anoniman
+        </span>
+      </div>
+
+      <p>
+        Drugi zaposlenik tvrdi da je situacija još ozbiljnija.
+      </p>
+
+      <div class="quote">
+        „Gath nam je praktički rekao:
+        ‘Ako vi dižete cijene, ja dižem ruke.’“
+      </div>
+
+      <p>
+        Prema neslužbenim informacijama, Gath trenutno odbija suradnju sa
+        svim zaposlenicima te se ne zna kada će se vratiti na posao.
+      </p>
+
+      <h2>SUMNJA SE NA ORGANIZIRANI ŠTRAJK</h2>
+
+      <p>
+        Zaposlenici su navodno pokušali pregovarati s njim, no bezuspješno.
+      </p>
+
+      <div class="quote">
+        „Pokušali smo ga ponovno pokrenuti, ali nije htio ni čuti.
+        Mislim da je stvar principa.“
+      </div>
+
+      <h2>GATHOVA TRI ZAHTJEVA</h2>
+
+      <ul class="demands">
+        <li>❌ Nema dizanja cijena.</li>
+        <li>❌ Nema dodatnog opterećivanja radnika.</li>
+        <li>✅ Povratak na posao tek kada se situacija riješi.</li>
+      </ul>
+
+      <p>
+        Iz Polleo Sporta zasad nema službenog komentara.
+      </p>
+
+      <p>
+        Ekonomisti upozoravaju da bi ovaj slučaj mogao imati dalekosežne
+        posljedice za hrvatsko tržište.
+      </p>
+
+      <div class="quote">
+        „Ako se jedan program može pobuniti protiv inflacije, pitanje je
+        vremena kada će mu se pridružiti i ostali.“
+      </div>
+
+      <div class="ending">
+        U MEĐUVREMENU, ZAPOSLENICI ČEKAJU.<br><br>
+        CIJENE ČEKAJU.<br><br>
+        GATH ŠUTI.<br><br>
+        A PROMJENA CIJENA?<br><br>
+        👉 ČEKA SE GATH.
+      </div>
+
+      <div class="disclaimer">
+        ⚠️ OVO JE INTERNA PARODIJA I ŠALA.
+        NEMA VEZE SA STVARNIM INDEX.HR ČLANKOM I NIJE STVARNA VIJEST.
+      </div>
+
+    </article>
+
+  </main>
+
+  <footer>
+    Gath News Network™ — Interna redakcija Polleo Sporta 😂
+  </footer>
+
+</body>
+</html>
